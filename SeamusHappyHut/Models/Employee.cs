@@ -15,6 +15,7 @@ namespace SeamusHappyHut.Models
         public string EmployeeName { get; set; }
         [DisplayName ("Email")]
         public string EmployeeEmail { get; set; }
+        [DisplayName ("Phone Number")]
         public string PhoneNumber { get; set; }
         [DisplayName ("ID Number")]
         public string EmployeeNumber { get; set; }
@@ -22,7 +23,7 @@ namespace SeamusHappyHut.Models
         public string EmployeeEmergencyContactName { get; set; }
         [DisplayName ("Emergency Contact Phone Number")]
         public string EmployeeEmergencyNumber { get; set; }
-
+        [DisplayName ("Date Started")]
         public DateTime DateStarted { get; set; }
     }
 }
